@@ -1,0 +1,42 @@
+database:
+  driverClass: org.postgresql.Driver
+  user: gcr
+  password: ""
+  url: jdbc:postgresql://localhost/gcr
+  properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+  maxWaitForConnection: 1s
+  validationQuery: "/* MyApplication Health Check */ SELECT * from dual"
+  validationQueryTimeout: 3s
+  minSize: 8
+  maxSize: 32
+  checkConnectionWhileIdle: false
+  evictionInterval: 10s
+  minIdleTime: 1 minute
+logging:
+  level: ERROR
+  loggers:
+    iop.poster: TRACE
+    io.dropwizard: ERROR
+server:
+  adminMinThreads: 1
+  adminMaxThreads: 64
+  adminContextPath: /admin
+  applicationContextPath: /*
+  applicationConnectors:
+    - type: http
+      port: 8080
+    - type: https
+      port: 8443
+      keyStorePath: example.keystore
+      keyStorePassword: example
+      validateCerts: false
+  adminConnectors:
+    - type: http
+      port: 8081
+    - type: https
+      port: 8444
+      keyStorePath: example.keystore
+      keyStorePassword: example
+      validateCerts: false

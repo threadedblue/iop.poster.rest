@@ -1,0 +1,105 @@
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+apply plugin: 'gradle-one-jar'
+
+sourceCompatibility = 1.7
+version = '0.0.0'
+group 'iop'
+
+defaultTasks 'run'
+mainClassName = 'iop.poster.rest.PosterApplication'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+run {
+	args 'server', 'poster.yml'
+}
+
+task uberJar(type: OneJar) {
+	mainClass = mainClassName
+	archiveName = 'poster.jar'
+	additionalDir = file('poster.yml')
+}
+
+sourceSets {
+	main {
+		java {
+			srcDir('gen/main/java')
+			srcDir('src/main/java')
+//			srcDir('src/test/java')
+		}
+		resources { srcDir 'src/main/resources' }
+	}
+}
+
+buildscript {
+	repositories { mavenCentral() }
+	dependencies { classpath 'com.github.rholder:gradle-one-jar:1.0.4' }
+}
+
+repositories {
+	maven {url 'file://' + new File(System.getProperty('user.home'), '.m2/repository').absolutePath;}
+	maven {url 'http://repo1.maven.org/maven2'}
+}
+
+configurations {
+	compile.exclude module: 'log4j-over-slf4j'
+	compile.exclude module: 'slf4j-log4j12'
+
+	// We exclude these because they each place jersey-client on the CP and conflict with dw core.
+	compile.exclude group: 'org.apache.hadoop', module: 'hadoop-yarn-common'
+	compile.exclude group: 'org.apache.hadoop', module: 'hadoop-yarn-server-nodemanager'
+}
+
+dependencies {
+
+	// DropWizard
+	compile 'io.dropwizard:dropwizard-core:0.8.0'
+	//	compile 'io.dropwizard:dropwizard-assets:0.8.0'
+	//	compile 'io.dropwizard:dropwizard-auth:0.8.0'
+	compile 'io.dropwizard:dropwizard-hibernate:0.8.0'
+	compile 'io.dropwizard:dropwizard-jdbi:0.8.0'
+	//  compile 'io.dropwizard:dropwizard-migrations:0.8.0'
+	//	compile 'io.dropwizard:dropwizard-spdy:0.8.0'
+	compile 'com.bazaarvoice.dropwizard:dropwizard-configurable-assets-bundle:0.2.2'
+
+	// Mail
+	compile 'javax.mail:mail:1.4'
+
+//	Database
+	compile 'org.postgresql:postgresql:9.3-1102-jdbc41'
+//	compile 'iop:iop.storet.e2a2e:0.0.4'
+	
+	// Hazoo
+//	compile 'accumulo:accumulo.provider:0.0.7'
+//	compile 'accumulo:accumulo-core:' + accVersion
+//	compile 'accumulo:accumulo-fate:' + accVersion
+//	compile 'accumulo:accumulo-start:' + accVersion
+//	compile 'accumulo:accumulo-trace:' + accVersion
+//	compile 'org.apache.hadoop:hadoop-client:' + hadVersion
+//	compile 'org.apache.zookeeper:zookeeper:' + zooVersion
+//	compile 'org.apache.thrift:libthrift:0.9.0'
+
+
+	// Logging
+	compile 'org.slf4j:slf4j-api:1.7.10'
+	compile 'ch.qos.logback:logback-core:1.1.2'
+	compile 'ch.qos.logback:logback-classic:1.1.2'
+	
+	//PDF
+	compile 'com.itextpdf:itextpdf:5.5.5'
+	
+	compile 'com.jayway.restassured:json-path:2.4.1'
+	testCompile group: 'junit', name: 'junit', version: '4.+'
+	testCompile 'com.jayway.restassured:rest-assured:2.4.1'
+	testCompile 'com.googlecode.json-simple:json-simple:1.1.1'
+}
+
+test {
+	testLogging { events 'started', 'passed' }
+}
+
+uploadArchives {
+	repositories { flatDir { dirs 'repos' } }
+}

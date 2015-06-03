@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="iop.poster.rest">
+  <xs:element name="poster">
+    <xs:complexType><xs:sequence><xs:element type="xs:string" name="email"></xs:element>
+      <xs:element type="xs:string" name="provider"></xs:element>
+      <xs:element type="xs:string" name="foreground"></xs:element>
+      <xs:element type="xs:string" name="background"></xs:element>
+      <xs:element type="xs:date" name="from"></xs:element>
+      <xs:element name="to" type="xs:date"></xs:element>
+      <xs:element type="xs:string" name="likes"></xs:element>
+      <xs:element name="beloved" type="xs:string"></xs:element>
+    </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

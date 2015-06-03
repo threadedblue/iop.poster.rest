@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="gen/main/java"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-core/0.8.0/fdf0caf9d6ed0c83c6901f31f21ff802717d8fb7/dropwizard-core-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-core/0.8.0/2ff6bdbabbe35bb0493ebd20ac337f45cdac9cd0/dropwizard-core-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-hibernate/0.8.0/5666b3db8aba9772ba81bdcb863b11716b9957c7/dropwizard-hibernate-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-hibernate/0.8.0/a95a50cc2eaf7a3e0576eb9c766a4df64057e7e2/dropwizard-hibernate-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jdbi/0.8.0/95a251a9b3516fcc35bfb9d9a1519653ec1713c9/dropwizard-jdbi-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jdbi/0.8.0/c102065204b1198840906a4a466458b4158d8dc2/dropwizard-jdbi-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.3-1102-jdbc41/e01373bd6ed64d1b3bf1476e5ed6a7652a5fbfcb/postgresql-9.3-1102-jdbc41.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.3-1102-jdbc41/3c0023d857e0d156088df3d57619e064dc5a8f6b/postgresql-9.3-1102-jdbc41-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.5.5/5781a6df5c14e4ad07f2bab7b228e8f3187c672d/itextpdf-5.5.5.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.5.5/8e4e994ab24cb4b8ce8f7595ae5bb32e4320a434/itextpdf-5.5.5-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/json-path/2.4.1/28cbe42587f6e13739fe54fbf5bde62e7c4ebcae/json-path-2.4.1.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/json-path/2.4.1/c9137db899ebe6ac42985b669075a31307adba2a/json-path-2.4.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/junit/junit/4.12/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured/2.4.1/6c0dfa77b78a9a1be5731f23f375dd8bed7b1723/rest-assured-2.4.1.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured/2.4.1/64d186d47177ea46a145e64d76d7af3d8ed8a818/rest-assured-2.4.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/15bba08e3a239d54b68209c001f9c911559d2fed/json-simple-1.1.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-util/0.8.0/72c00868caa509a8bc96a642e5f5a064b5158810/dropwizard-util-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-util/0.8.0/72df34074e6055b4d061883046974a137eda8145/dropwizard-util-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jackson/0.8.0/34a1251882c440285d3c80f2172be4c60833b88d/dropwizard-jackson-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jackson/0.8.0/8f7f5e00b79d8a20fe5d60a8cdfdf484ea6af895/dropwizard-jackson-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-validation/0.8.0/e3ce34aa92f1a0091ca757cddc215f9da747e742/dropwizard-validation-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-validation/0.8.0/178cf7c4dcb91ba9afd2b35812f92e1cc0360ab7/dropwizard-validation-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-configuration/0.8.0/b50d9a7aeb522329cb4f549a8738bf99c855fa6d/dropwizard-configuration-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-configuration/0.8.0/18e8e3ee122f8fb0f9d5a76fbf111ddf55ef2c75/dropwizard-configuration-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-logging/0.8.0/1835c74ff1d7785a03b3a8f207f7da28e4cbf534/dropwizard-logging-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-logging/0.8.0/523a6ab86e2e4667152a2fcc3eaef54ce4781660/dropwizard-logging-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-metrics/0.8.0/70d5f0cefdc1bd8e7e3fd57d490e2d6895d03536/dropwizard-metrics-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-metrics/0.8.0/c34e0c0afaee573855808bc8d982ef2b6a0b487e/dropwizard-metrics-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/0.8.0/20cd5ccf964185ef7c740eae3d2e5a86ec172ed0/dropwizard-jersey-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jersey/0.8.0/9d8a1eece15a0c380726b01ab0b0124538e09fe4/dropwizard-jersey-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-servlets/0.8.0/612d98209c439ec19b66a9b05b4b2cfd441a471e/dropwizard-servlets-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-servlets/0.8.0/6cf91f686244a7c15ede722445ec71595499bfd4/dropwizard-servlets-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jetty/0.8.0/1d41f40c60840c1555590a496b3d78a1b12a309/dropwizard-jetty-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jetty/0.8.0/78c448e384659c1e000cc421459053a50a7c0945/dropwizard-jetty-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-lifecycle/0.8.0/9d745ce0053b94ae562ef4f5ace44879ef0a42cf/dropwizard-lifecycle-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-lifecycle/0.8.0/6db20cdb9b28ee2a0c364ff867311d6e5c18afb0/dropwizard-lifecycle-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.0/metrics-core-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.0/metrics-jvm-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-servlets/3.1.0/metrics-servlets-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-healthchecks/3.1.0/metrics-healthchecks-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/net/sourceforge/argparse4j/argparse4j/0.4.4/argparse4j-0.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/toolchain/setuid/jetty-setuid-java/1.0.2/jetty-setuid-java-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-db/0.8.0/8ae244159ecbdb5ba6b723521520dcbc3e0b32d6/dropwizard-db-0.8.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-db/0.8.0/a9cb3409a91c7b122e174a88192274bc3a5c4e22/dropwizard-db-0.8.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-hibernate4/2.5.1/jackson-datatype-hibernate4-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/jadira/usertype/usertype.core/3.2.0.GA/usertype.core-3.2.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.jdbi/jdbi/2.59/8aed153a3470985bfe0b22d53e6e7939dfafeb9a/jdbi-2.59.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.jdbi/jdbi/2.59/eb3314364faa3e1a93569452aeb875c34544b37f/jdbi-2.59-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jdbi/3.1.0/c18fc88e8d3c53225c32e8f12f5c1c7d4b3109a4/metrics-jdbi-3.1.0.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-jdbi/3.1.0/65bbc1df3bd3ce112414aa158042def58d81d930/metrics-jdbi-3.1.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.3/3f7b89d3512a001e4e3472cd7b4e29005b00fe4c/groovy-json-2.4.3.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.3/5e6439bf04463becd137bd4d9b528bb79524668d/groovy-json-2.4.3-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/9c8664435dd00c5316a344eea4b86dc46601d416/groovy-2.4.3.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.3/734d76ea3f49c696e887a1a8da2d39cb84d51fd1/groovy-2.4.3-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured-common/2.4.1/5138d0cb2d73a3a11e76bd0f83c01af472cd3c1a/rest-assured-common-2.4.1.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/rest-assured-common/2.4.1/93cb234eef39360a61d46a80851296bf79070307/rest-assured-common-2.4.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.4.3/a31a3b90246936d0f72b9055a975e5058b9f5648/groovy-xml-2.4.3.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.4.3/8f34806082453fcabbf1e635c0c534c38baecf/groovy-xml-2.4.3-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/af4d76be0c46ee26b0d9d1d4a34d244a633cac84/httpclient-4.3.6-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.6/cf8bacbf0d476c7f2221f861269365b66447f7ec/httpmime-4.3.6.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.6/2b5dc16e6104e3341c210ef4113a2fc1b4f2ea5f/httpmime-4.3.6-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/5584627487e984c03456266d3f8802eb85a9ce97/tagsoup-1.2.1.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/31cbf81bece906e382034d2b04e2e5c47e864c17/tagsoup-1.2.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/xml-path/2.4.1/310fee9c6bdc9197134a74f4454f9c1d9cd7f34b/xml-path-2.4.1.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/xml-path/2.4.1/4b4b6bd690d2452cd14b02445c798c85ea1803c7/xml-path-2.4.1-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/joda-time/joda-time/2.7/joda-time-2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.5.1/jackson-core-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.5.1/jackson-databind-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk7/2.5.1/jackson-datatype-jdk7-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.5.1/jackson-datatype-guava-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.5.1/jackson-module-afterburner-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.5.1/jackson-datatype-joda-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/javax.el/3.0.0/javax.el-3.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.5.1/jackson-dataformat-yaml-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-logback/3.1.0/metrics-logback-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-util/9.2.9.v20150224/jetty-util-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/core/jersey-server/2.16/jersey-server-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/ext/jersey-metainf-services/2.16/jersey-metainf-services-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-jersey2/3.1.0/metrics-jersey2-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.5.1/jackson-jaxrs-json-provider-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.16/jersey-container-servlet-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-server/9.2.9.v20150224/jetty-server-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.9.v20150224/jetty-webapp-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-continuation/9.2.9.v20150224/jetty-continuation-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-annotation/3.1.0/metrics-annotation-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-jetty9/3.1.0/metrics-jetty9-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.9.v20150224/jetty-servlet-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.9.v20150224/jetty-servlets-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-http/9.2.9.v20150224/jetty-http-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/io/dropwizard/metrics/metrics-json/3.1.0/metrics-json-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.0.18/tomcat-jdbc-8.0.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/jadira/usertype/usertype.spi/3.2.0.GA/usertype.spi-3.2.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.4.Final/hibernate-commons-annotations-4.0.4.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar" sourcepath="/Users/gcr/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/1b0aa62a6a91e9fa00c16f0a4a2c874804ed3b1e/httpcore-4.3.3-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/core/jersey-common/2.16/jersey-common-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/core/jersey-client/2.16/jersey-client-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.16/jersey-media-jaxb-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b09/hk2-api-2.4.0-b09.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b09/javax.inject-2.4.0-b09.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b09/hk2-locator-2.4.0-b09.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.5.1/jackson-jaxrs-base-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.5.1/jackson-module-jaxb-annotations-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.16/jersey-container-servlet-core-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-io/9.2.9.v20150224/jetty-io-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.9.v20150224/jetty-xml-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/eclipse/jetty/jetty-security/9.2.9.v20150224/jetty-security-9.2.9.v20150224.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/apache/tomcat/tomcat-juli/8.0.18/tomcat-juli-8.0.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.16/jersey-guava-2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b09/hk2-utils-2.4.0-b09.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b09/aopalliance-repackaged-2.4.0-b09.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/gcr/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
