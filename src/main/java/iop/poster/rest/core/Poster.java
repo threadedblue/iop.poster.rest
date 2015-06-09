@@ -106,7 +106,7 @@ public class Poster {
 
 	@JsonIgnore
 	public String getToAsString() {
-		return getDateAsString(getFrom());
+		return getDateAsString(getTo());
 	}
 
 	@JsonIgnore

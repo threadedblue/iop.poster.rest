@@ -5,6 +5,7 @@ create table IF NOT EXISTS posters
 , email varchar
 , first_name varchar
 , last_name varchar
+, description varchar
 , practitioner varchar
 , foreground varchar
 , background varchar
